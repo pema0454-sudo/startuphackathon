@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/.env
+.env
+backend/trace.log
+backend/data/local_store.json
+frontend/static/audio/*.mp3
+!frontend/static/audio/.gitkeep
+.DS_Store

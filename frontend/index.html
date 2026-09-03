@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bema Farm — The Claim That Files Itself</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body data-page="home">
+
+<div class="container">
+  <div class="topbar">
+    <a class="brand" href="/">Bema Farm</a>
+    <span class="badge badge-sandbox">Sandbox</span>
+    <nav>
+      <a href="/command.html">Platform</a>
+    </nav>
+  </div>
+</div>
+
+<header class="container hero">
+  <h1>Bema Farm</h1>
+  <div class="tagline">The Claim That Files Itself</div>
+  <p class="pitch">Flood and drought insurance that pays a farmer before she asks — a shared river gauge, not an inspector, decides.</p>
+  <a class="btn btn-primary" href="/command.html">Enter Platform →</a>
+</header>
+
+<section class="section container">
+  <h2>The Problem</h2>
+  <p>In Nepal, weather-index crop insurance already exists — a policy that's supposed to pay out automatically
+     when official rain or river data crosses an agreed line. In practice, farmers still don't know a payout is
+     possible, and nobody manually checks forty policies against a spreadsheet fast enough. The subsidy exists.
+     The data exists. Nobody claims it.</p>
+</section>
+
+<section class="section container">
+  <h2>The Solution</h2>
+  <div class="pipeline">
+    <div class="step"><span class="n">1</span><br/><strong>WATCH</strong><br/>river &amp; rainfall data</div>
+    <div class="step"><span class="n">2</span><br/><strong>CHECK</strong><br/>against every active policy</div>
+    <div class="step"><span class="n">3</span><br/><strong>DRAFT</strong><br/>the claim with evidence</div>
+    <div class="step"><span class="n">4</span><br/><strong>HUMAN</strong><br/>approves</div>
+    <div class="step"><span class="n">5</span><br/><strong>FARMER</strong><br/>gets a voice call, in Nepali</div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>How It Works</h2>
+  <ol class="how-list">
+    <li>A scheduled check reads today's river/rainfall data</li>
+    <li>Bema Farm compares it against every active policy's trigger</li>
+    <li>If crossed, it drafts a claim with the evidence attached</li>
+    <li>A claims officer reviews and approves — this step is never skipped</li>
+    <li>The farmer receives a Nepali voice confirmation; the claim moves to the insurer's normal payout process</li>
+  </ol>
+</section>
+
+<section class="section container">
+  <h2>Who It's For</h2>
+  <div class="people">
+    <div class="person">
+      <span class="role">Policyholder</span>
+      <h3>Sita Tamang</h3>
+      <p>Rice farmer, Ward 6, Janakpurdham Sub-Metropolitan City, Dhanusa. Holds a NPR 500/season weather-index
+         flood policy paying NPR 5,000 if the Kamala river gauge crosses 4.5m and 3-day cumulative rainfall
+         exceeds 100mm. She does nothing, and gets a phone call.</p>
+    </div>
+    <div class="person">
+      <span class="role">Claims officer</span>
+      <h3>Prakash Rai</h3>
+      <p>Reviews a short queue of pre-drafted, evidence-backed claims each morning instead of cross-checking
+         forty policy files against a spreadsheet by hand.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="badday">
+    <span class="label">The Bad Day</span>
+    It is 2 a.m. during monsoon. The Kamala has risen 1.2 metres in six hours across Dhanusa district.
+    Mobile networks are degraded to 2G. Power has been out for four hours. Forty policyholders across
+    several Dhanusa villages cross their trigger on the same night. Prakash cannot manually check forty
+    policy files against a spreadsheet before people stop trusting that a payout is coming.
+  </div>
+</section>
+
+<section class="section container">
+  <h2>What Bema Farm Does Not Do</h2>
+  <ul class="donts">
+    <li>Does not underwrite or sell new policies — works with existing ones</li>
+    <li>Does not move or hold money — the insurer's own systems pay out</li>
+    <li>Does not replace the human claims officer — only prepares their work</li>
+    <li>Runs on illustrative sandbox data, clearly labeled throughout</li>
+  </ul>
+</section>
+
+<section class="section container">
+  <h2>Where This Lives In The Real World</h2>
+  <p>Bema Farm is built as a tool an insurer's claims team logs into — not a public website farmers visit. Real
+     deployment means licensing this dashboard to an insurer or cooperative, or eventually connecting it via API
+     into their existing claims system, while farmers keep receiving a simple phone call, nothing more.</p>
+</section>
+
+<div class="footer-cta">
+  <a class="btn btn-primary" href="/command.html">Enter Platform →</a>
+</div>
+
+<div class="footer-note">© Bema Farm — Parametric flood &amp; drought cover for Dhanusa district.</div>
+
+</body>
+</html>

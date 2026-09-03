@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bema Farm — Claims Desk</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body data-page="command">
+
+<div class="container">
+  <div class="topbar">
+    <a class="brand" href="/">Bema Farm</a>
+    <span class="badge badge-sandbox">Sandbox</span>
+    <div class="badges" id="mode-badges"></div>
+    <nav>
+      <a href="/">Public site</a>
+      <a href="/audit.html">Audit log</a>
+      <span style="margin-left:14px;color:var(--ink-soft);font-size:0.85rem;">Signed in as Prakash Rai</span>
+    </nav>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="label" id="kpi-level-label">Kamala river level</div>
+      <div class="value" id="kpi-level">—</div>
+      <div class="sub" id="kpi-level-sub">&nbsp;</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Rainfall (3-day)</div>
+      <div class="value" id="kpi-trend">—</div>
+      <div class="sub" id="kpi-trend-sub">&nbsp;</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Policies at risk</div>
+      <div class="value" id="kpi-risk">—</div>
+      <div class="sub" id="kpi-risk-sub">&nbsp;</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>AI Executive Brief</h2>
+      <button class="btn btn-primary btn-sm" id="btn-check-now">Check Now</button>
+    </div>
+    <div class="brief-text" id="brief-text">No run yet — the scheduler fires automatically, or click Check Now.</div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Pending Claims <span id="pending-count"></span></h2>
+    </div>
+    <div id="pending-list"><div class="empty-note">No pending claims right now.</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Confirmed — Dispatch Sent</h2>
+    </div>
+    <div id="confirmed-list"><div class="empty-note">Nothing confirmed yet.</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Agent Trace</h2>
+      <span class="badge badge-status" id="trace-count-badge">0 lines</span>
+    </div>
+    <div class="trace-panel" id="trace-panel">watching for agent activity…</div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head"><h2>Data Entry</h2></div>
+    <p class="form-note" style="margin-top:0;">Stand-in for the real DHM feed — readings entered here are tagged
+      "manual entry" and feed straight into the next check.</p>
+    <div class="form-row">
+      <select id="manual-station"></select>
+      <select id="manual-parameter">
+        <option value="river_level">River level (m)</option>
+        <option value="rainfall_3day">Rainfall, 3-day (mm)</option>
+        <option value="rainfall_30day">Rainfall, 30-day (mm)</option>
+      </select>
+      <input type="number" step="0.01" id="manual-value" placeholder="Value" />
+      <button class="btn btn-ghost btn-sm" id="btn-manual-submit">Submit reading</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head"><h2>Quick Demo Spike</h2></div>
+    <p class="form-note" style="margin-top:0;">Bump a station toward its flood trigger, then click Check Now
+      (or wait for the next scheduled run).</p>
+    <div class="form-row">
+      <select id="spike-station"></select>
+      <button class="btn btn-ghost btn-sm" id="btn-spike">Simulate flood spike</button>
+    </div>
+  </div>
+
+  <div class="footer-note">Sandbox data, structured to resemble Dhanusa district geography and public DHM river-watch data.</div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

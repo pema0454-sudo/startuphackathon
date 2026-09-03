@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bema Farm — Audit Log</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body data-page="audit">
+
+<div class="container">
+  <div class="topbar">
+    <a class="brand" href="/">Bema Farm</a>
+    <span class="badge badge-sandbox">Sandbox</span>
+    <nav>
+      <a href="/">Public site</a>
+      <a href="/command.html">Claims desk</a>
+    </nav>
+  </div>
+
+  <div class="panel" style="margin-top:22px;">
+    <div class="panel-head"><h2>Audit Log</h2></div>
+    <p style="font-size:0.88rem;color:var(--ink-soft);margin-top:0;">Every approve/reject decision, who made it,
+      when, and what the agent originally recommended. Approve and reject are the only two ways a claim's status
+      can change — this table is the full record of both.</p>
+    <div style="overflow-x:auto;">
+      <table class="audit">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Claim</th>
+            <th>Action</th>
+            <th>Officer</th>
+            <th>AI recommendation</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody id="audit-body">
+          <tr><td colspan="6" class="empty-note">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer-note">Sandbox data — no real claim payouts are recorded here.</div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

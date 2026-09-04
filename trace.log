@@ -1,0 +1,42 @@
+[09:23:28] BOOT      scheduler started · every 7h · mode=rule-based (no key)
+[09:23:43] TRIGGER   scheduled · district=Dhanusa · run=19d5e1
+[09:23:43] DRIFT     auto-drifted 12 reading(s) with no manual input since last cycle
+[09:23:43] FALLBACK  AI unavailable (no HACKATHON_KEY configured) — switching to rule-based threshold check
+[09:23:43] TOOL      get_active_policies("Dhanusa") -> 35 policies
+[09:23:43] STEP      check_trigger(policy=1): river_level 3.76 > 4.5 (not met); rainfall_3day 56.89 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=2): river_level 3.97 > 4.4 (not met); rainfall_3day 60.56 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=3): river_level 3.79 > 4.5 (not met); rainfall_3day 59.88 > 110 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=4): river_level 3.76 > 4.6 (not met); rainfall_3day 62.85 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=5): river_level 3.88 > 4.7 (not met); rainfall_3day 57.85 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=6): river_level 3.97 > 4.3 (not met); rainfall_3day 62.28 > 110 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=7): river_level 3.84 > 4.4 (not met); rainfall_3day 56.95 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=8): river_level 3.81 > 4.5 (not met); rainfall_3day 56.52 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=9): river_level 3.92 > 4.6 (not met); rainfall_3day 56.79 > 110 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=10): river_level 3.95 > 4.7 (not met); rainfall_3day 58.67 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=11): river_level 3.8 > 4.3 (not met); rainfall_3day 62.78 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=12): river_level 3.82 > 4.4 (not met); rainfall_3day 57.7 > 110 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=13): river_level 3.76 > 4.5 (not met); rainfall_3day 58.03 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=14): rainfall_30day 201.93 < 165.0 (not met); river_level 3.85 < 2.67 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=15): rainfall_30day 208.53 < 175.0 (not met); river_level 3.82 < 2.72 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=16): rainfall_30day 209.29 < 155.0 (not met); river_level 3.84 < 2.77 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=17): river_level 3.21 > 3.9 (not met); rainfall_3day 46.68 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=18): river_level 3.37 > 4.0 (not met); rainfall_3day 46.39 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=19): river_level 3.21 > 4.1 (not met); rainfall_3day 49.09 > 80 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=20): river_level 3.35 > 4.2 (not met); rainfall_3day 51.51 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=21): river_level 3.35 > 3.8 (not met); rainfall_3day 45.84 > 100 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=22): rainfall_30day 187.88 < 140.0 (not met); river_level 3.24 < 2.38 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=23): rainfall_30day 197.51 < 150.0 (not met); river_level 3.38 < 2.42 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=24): river_level 2.75 > 3.3 (not met); rainfall_3day 41.81 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=25): river_level 2.8 > 3.4 (not met); rainfall_3day 38.77 > 70 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=26): river_level 2.7 > 3.0 (not met); rainfall_3day 40.03 > 80 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=27): river_level 2.78 > 3.1 (not met); rainfall_3day 42.59 > 90 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=28): river_level 2.74 > 3.2 (not met); rainfall_3day 42.87 > 70 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=29): rainfall_30day 169.43 < 135.0 (not met); river_level 2.8 < 1.84 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=30): river_level 3.63 > 4.4 (not met); rainfall_3day 60.15 > 105 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=31): river_level 3.45 > 4.0 (not met); rainfall_3day 59.31 > 85 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=32): river_level 3.51 > 4.1 (not met); rainfall_3day 59.4 > 95 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=33): river_level 3.48 > 4.2 (not met); rainfall_3day 55.36 > 105 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=34): river_level 3.58 > 4.3 (not met); rainfall_3day 61.3 > 85 (not met) -> not fired
+[09:23:43] STEP      check_trigger(policy=35): rainfall_30day 204.2 < 158.0 (not met); river_level 3.48 < 2.54 (not met) -> not fired
+[09:23:43] STEP      0 new claim(s) drafted across 35 district-wide policies
+[09:23:43] DONE      0 new claim(s) drafted · 0 gate(s) awaiting approval · rule-based fallback — no model cost · 0.5s

@@ -1,0 +1,1923 @@
+{
+  "policies": [
+    {
+      "farmer_name": "Sita Tamang",
+      "ward": 6,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.5
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 20.0,
+      "payout_amount": 5000,
+      "premium": 500,
+      "phone": "+977-9840000000",
+      "active": true,
+      "id": 1
+    },
+    {
+      "farmer_name": "Ram Bahadur Yadav",
+      "ward": 3,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.4
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 15.5,
+      "payout_amount": 3900,
+      "premium": 390,
+      "phone": "+977-9840000137",
+      "active": true,
+      "id": 2
+    },
+    {
+      "farmer_name": "Kanchhi Mandal",
+      "ward": 9,
+      "municipality": "Chhireshwarnath Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.5
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 110
+        }
+      ],
+      "land_kattha": 18.5,
+      "payout_amount": 4600,
+      "premium": 460,
+      "phone": "+977-9840000274",
+      "active": true,
+      "id": 3
+    },
+    {
+      "farmer_name": "Bishnu Chaudhary",
+      "ward": 2,
+      "municipality": "Ganeshman Charnath Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.6
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 5.5,
+      "payout_amount": 1400,
+      "premium": 140,
+      "phone": "+977-9840000411",
+      "active": true,
+      "id": 4
+    },
+    {
+      "farmer_name": "Sunita Rai",
+      "ward": 6,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.7
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 14.0,
+      "payout_amount": 3500,
+      "premium": 350,
+      "phone": "+977-9840000548",
+      "active": true,
+      "id": 5
+    },
+    {
+      "farmer_name": "Mohan Sah",
+      "ward": 4,
+      "municipality": "Nagarain Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.3
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 110
+        }
+      ],
+      "land_kattha": 12.5,
+      "payout_amount": 3100,
+      "premium": 310,
+      "phone": "+977-9840000685",
+      "active": true,
+      "id": 6
+    },
+    {
+      "farmer_name": "Radha Devi Mahato",
+      "ward": 6,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.4
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 14.5,
+      "payout_amount": 3600,
+      "premium": 360,
+      "phone": "+977-9840000822",
+      "active": true,
+      "id": 7
+    },
+    {
+      "farmer_name": "Hari Prasad Karki",
+      "ward": 5,
+      "municipality": "Bideha Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.5
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 7.5,
+      "payout_amount": 1900,
+      "premium": 190,
+      "phone": "+977-9840000959",
+      "active": true,
+      "id": 8
+    },
+    {
+      "farmer_name": "Gita Kumari Yadav",
+      "ward": 6,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.6
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 110
+        }
+      ],
+      "land_kattha": 21.5,
+      "payout_amount": 5400,
+      "premium": 540,
+      "phone": "+977-9840001096",
+      "active": true,
+      "id": 9
+    },
+    {
+      "farmer_name": "Dilip Chaudhary",
+      "ward": 8,
+      "municipality": "Mithila Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.7
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 8.5,
+      "payout_amount": 2100,
+      "premium": 210,
+      "phone": "+977-9840001233",
+      "active": true,
+      "id": 10
+    },
+    {
+      "farmer_name": "Anita Tamang",
+      "ward": 3,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.3
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 6.0,
+      "payout_amount": 1500,
+      "premium": 150,
+      "phone": "+977-9840001370",
+      "active": true,
+      "id": 11
+    },
+    {
+      "farmer_name": "Suresh Mandal",
+      "ward": 6,
+      "municipality": "Chhireshwarnath Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.4
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 110
+        }
+      ],
+      "land_kattha": 14.0,
+      "payout_amount": 3500,
+      "premium": 350,
+      "phone": "+977-9840001507",
+      "active": true,
+      "id": 12
+    },
+    {
+      "farmer_name": "Kamala Rai",
+      "ward": 1,
+      "municipality": "Nagarain Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.5
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 5.0,
+      "payout_amount": 1200,
+      "premium": 120,
+      "phone": "+977-9840001644",
+      "active": true,
+      "id": 13
+    },
+    {
+      "farmer_name": "Binod Sah",
+      "ward": 6,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 165.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 2.67
+        }
+      ],
+      "land_kattha": 12.0,
+      "payout_amount": 2400,
+      "premium": 240,
+      "phone": "+977-9840001781",
+      "active": true,
+      "id": 14
+    },
+    {
+      "farmer_name": "Parbati Chaudhary",
+      "ward": 7,
+      "municipality": "Ganeshman Charnath Municipality",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 175.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 2.72
+        }
+      ],
+      "land_kattha": 9.5,
+      "payout_amount": 1900,
+      "premium": 190,
+      "phone": "+977-9840001918",
+      "active": true,
+      "id": 15
+    },
+    {
+      "farmer_name": "Naresh Yadav",
+      "ward": 6,
+      "municipality": "Janakpurdham Sub-Metropolitan City",
+      "district": "Dhanusa",
+      "station": "Kamala",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 155.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 2.77
+        }
+      ],
+      "land_kattha": 18.5,
+      "payout_amount": 3700,
+      "premium": 370,
+      "phone": "+977-9840002055",
+      "active": true,
+      "id": 16
+    },
+    {
+      "farmer_name": "Sarita Mahato",
+      "ward": 4,
+      "municipality": "Dhanauji Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.9
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 18.5,
+      "payout_amount": 4600,
+      "premium": 460,
+      "phone": "+977-9840002192",
+      "active": true,
+      "id": 17
+    },
+    {
+      "farmer_name": "Dipak Rai",
+      "ward": 2,
+      "municipality": "Janaknandini Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.0
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 7.0,
+      "payout_amount": 1800,
+      "premium": 180,
+      "phone": "+977-9840002329",
+      "active": true,
+      "id": 18
+    },
+    {
+      "farmer_name": "Manisha Karki",
+      "ward": 6,
+      "municipality": "Dhanauji Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.1
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 80
+        }
+      ],
+      "land_kattha": 14.0,
+      "payout_amount": 3500,
+      "premium": 350,
+      "phone": "+977-9840002466",
+      "active": true,
+      "id": 19
+    },
+    {
+      "farmer_name": "Ramesh Chaudhary",
+      "ward": 9,
+      "municipality": "Mukhiyapatti Musaharniya Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.2
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 20.5,
+      "payout_amount": 5100,
+      "premium": 510,
+      "phone": "+977-9840002603",
+      "active": true,
+      "id": 20
+    },
+    {
+      "farmer_name": "Laxmi Tamang",
+      "ward": 3,
+      "municipality": "Janaknandini Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.8
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 100
+        }
+      ],
+      "land_kattha": 16.0,
+      "payout_amount": 4000,
+      "premium": 400,
+      "phone": "+977-9840002740",
+      "active": true,
+      "id": 21
+    },
+    {
+      "farmer_name": "Ganesh Yadav",
+      "ward": 6,
+      "municipality": "Dhanauji Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 140.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 2.38
+        }
+      ],
+      "land_kattha": 20.5,
+      "payout_amount": 4100,
+      "premium": 410,
+      "phone": "+977-9840002877",
+      "active": true,
+      "id": 22
+    },
+    {
+      "farmer_name": "Puja Mandal",
+      "ward": 5,
+      "municipality": "Mukhiyapatti Musaharniya Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Aurahi",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 150.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 2.42
+        }
+      ],
+      "land_kattha": 14.0,
+      "payout_amount": 2800,
+      "premium": 280,
+      "phone": "+977-9840003014",
+      "active": true,
+      "id": 23
+    },
+    {
+      "farmer_name": "Shyam Sah",
+      "ward": 2,
+      "municipality": "Lakshminiya Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Jhim/Jhanjh Khola",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.3
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 11.0,
+      "payout_amount": 2800,
+      "premium": 280,
+      "phone": "+977-9840003151",
+      "active": true,
+      "id": 24
+    },
+    {
+      "farmer_name": "Rita Chaudhary",
+      "ward": 6,
+      "municipality": "Bateshwar Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Jhim/Jhanjh Khola",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.4
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 70
+        }
+      ],
+      "land_kattha": 13.0,
+      "payout_amount": 3200,
+      "premium": 320,
+      "phone": "+977-9840003288",
+      "active": true,
+      "id": 25
+    },
+    {
+      "farmer_name": "Bikash Karki",
+      "ward": 4,
+      "municipality": "Lakshminiya Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Jhim/Jhanjh Khola",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.0
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 80
+        }
+      ],
+      "land_kattha": 14.5,
+      "payout_amount": 3600,
+      "premium": 360,
+      "phone": "+977-9840003425",
+      "active": true,
+      "id": 26
+    },
+    {
+      "farmer_name": "Sabitri Mahato",
+      "ward": 7,
+      "municipality": "Bateshwar Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Jhim/Jhanjh Khola",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.1
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 90
+        }
+      ],
+      "land_kattha": 5.5,
+      "payout_amount": 1400,
+      "premium": 140,
+      "phone": "+977-9840003562",
+      "active": true,
+      "id": 27
+    },
+    {
+      "farmer_name": "Nabin Rai",
+      "ward": 6,
+      "municipality": "Lakshminiya Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Jhim/Jhanjh Khola",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 3.2
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 70
+        }
+      ],
+      "land_kattha": 5.5,
+      "payout_amount": 1400,
+      "premium": 140,
+      "phone": "+977-9840003699",
+      "active": true,
+      "id": 28
+    },
+    {
+      "farmer_name": "Kalpana Yadav",
+      "ward": 3,
+      "municipality": "Bateshwar Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Jhim/Jhanjh Khola",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 135.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 1.84
+        }
+      ],
+      "land_kattha": 10.5,
+      "payout_amount": 2100,
+      "premium": 210,
+      "phone": "+977-9840003836",
+      "active": true,
+      "id": 29
+    },
+    {
+      "farmer_name": "Rajendra Chaudhary",
+      "ward": 6,
+      "municipality": "Lakshminiya Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Ratu",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.4
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 105
+        }
+      ],
+      "land_kattha": 18.0,
+      "payout_amount": 4500,
+      "premium": 450,
+      "phone": "+977-9840003973",
+      "active": true,
+      "id": 30
+    },
+    {
+      "farmer_name": "Sanju Tamang",
+      "ward": 8,
+      "municipality": "Aurahi Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Ratu",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.0
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 85
+        }
+      ],
+      "land_kattha": 9.0,
+      "payout_amount": 2200,
+      "premium": 220,
+      "phone": "+977-9840004110",
+      "active": true,
+      "id": 31
+    },
+    {
+      "farmer_name": "Bimal Sah",
+      "ward": 5,
+      "municipality": "Aurahi Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Ratu",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.1
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 95
+        }
+      ],
+      "land_kattha": 17.0,
+      "payout_amount": 4200,
+      "premium": 420,
+      "phone": "+977-9840004247",
+      "active": true,
+      "id": 32
+    },
+    {
+      "farmer_name": "Devi Maya Rai",
+      "ward": 6,
+      "municipality": "Aurahi Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Ratu",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.2
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 105
+        }
+      ],
+      "land_kattha": 20.5,
+      "payout_amount": 5100,
+      "premium": 510,
+      "phone": "+977-9840004384",
+      "active": true,
+      "id": 33
+    },
+    {
+      "farmer_name": "Ashok Mandal",
+      "ward": 2,
+      "municipality": "Janaknandini Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Ratu",
+      "hazard_type": "flood",
+      "triggers": [
+        {
+          "parameter": "river_level",
+          "operator": ">",
+          "threshold": 4.3
+        },
+        {
+          "parameter": "rainfall_3day",
+          "operator": ">",
+          "threshold": 85
+        }
+      ],
+      "land_kattha": 11.5,
+      "payout_amount": 2900,
+      "premium": 290,
+      "phone": "+977-9840004521",
+      "active": true,
+      "id": 34
+    },
+    {
+      "farmer_name": "Renu Karki",
+      "ward": 6,
+      "municipality": "Aurahi Rural Municipality",
+      "district": "Dhanusa",
+      "station": "Ratu",
+      "hazard_type": "drought",
+      "triggers": [
+        {
+          "parameter": "rainfall_30day",
+          "operator": "<",
+          "threshold": 158.0
+        },
+        {
+          "parameter": "river_level",
+          "operator": "<",
+          "threshold": 2.54
+        }
+      ],
+      "land_kattha": 4.5,
+      "payout_amount": 900,
+      "premium": 90,
+      "phone": "+977-9840004658",
+      "active": true,
+      "id": 35
+    }
+  ],
+  "readings": [
+    {
+      "station": "Kamala",
+      "parameter": "river_level",
+      "value": 3.78,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 21:38 NPT - river_level 3.78m",
+      "id": 1
+    },
+    {
+      "station": "Kamala",
+      "parameter": "river_level",
+      "value": 3.79,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 23:38 NPT - river_level 3.79m",
+      "id": 2
+    },
+    {
+      "station": "Kamala",
+      "parameter": "river_level",
+      "value": 3.81,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 01:38 NPT - river_level 3.81m",
+      "id": 3
+    },
+    {
+      "station": "Kamala",
+      "parameter": "river_level",
+      "value": 3.82,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 03:38 NPT - river_level 3.82m",
+      "id": 4
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_3day",
+      "value": 60.14,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 21:38 NPT - rainfall_3day 60.14mm",
+      "id": 5
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_3day",
+      "value": 60.76,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 23:38 NPT - rainfall_3day 60.76mm",
+      "id": 6
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_3day",
+      "value": 61.38,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 01:38 NPT - rainfall_3day 61.38mm",
+      "id": 7
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_3day",
+      "value": 62.0,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 03:38 NPT - rainfall_3day 62.0mm",
+      "id": 8
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_30day",
+      "value": 198.85,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 21:38 NPT - rainfall_30day 198.85mm",
+      "id": 9
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_30day",
+      "value": 200.9,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 23:38 NPT - rainfall_30day 200.9mm",
+      "id": 10
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_30day",
+      "value": 202.95,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 01:38 NPT - rainfall_30day 202.95mm",
+      "id": 11
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_30day",
+      "value": 205.0,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Kamala gauge - 03:38 NPT - rainfall_30day 205.0mm",
+      "id": 12
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "river_level",
+      "value": 3.37,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 21:38 NPT - river_level 3.37m",
+      "id": 13
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "river_level",
+      "value": 3.38,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 23:38 NPT - river_level 3.38m",
+      "id": 14
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "river_level",
+      "value": 3.39,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 01:38 NPT - river_level 3.39m",
+      "id": 15
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "river_level",
+      "value": 3.4,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 03:38 NPT - river_level 3.4m",
+      "id": 16
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_3day",
+      "value": 53.35,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 21:38 NPT - rainfall_3day 53.35mm",
+      "id": 17
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_3day",
+      "value": 53.9,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 23:38 NPT - rainfall_3day 53.9mm",
+      "id": 18
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_3day",
+      "value": 54.45,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 01:38 NPT - rainfall_3day 54.45mm",
+      "id": 19
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_3day",
+      "value": 55.0,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 03:38 NPT - rainfall_3day 55.0mm",
+      "id": 20
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_30day",
+      "value": 184.3,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 21:38 NPT - rainfall_30day 184.3mm",
+      "id": 21
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_30day",
+      "value": 186.2,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 23:38 NPT - rainfall_30day 186.2mm",
+      "id": 22
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_30day",
+      "value": 188.1,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 01:38 NPT - rainfall_30day 188.1mm",
+      "id": 23
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_30day",
+      "value": 190.0,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Aurahi gauge - 03:38 NPT - rainfall_30day 190.0mm",
+      "id": 24
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "river_level",
+      "value": 2.67,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 21:38 NPT - river_level 2.67m",
+      "id": 25
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "river_level",
+      "value": 2.68,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 23:38 NPT - river_level 2.68m",
+      "id": 26
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "river_level",
+      "value": 2.69,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 01:38 NPT - river_level 2.69m",
+      "id": 27
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "river_level",
+      "value": 2.7,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 03:38 NPT - river_level 2.7m",
+      "id": 28
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_3day",
+      "value": 46.56,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 21:38 NPT - rainfall_3day 46.56mm",
+      "id": 29
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_3day",
+      "value": 47.04,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 23:38 NPT - rainfall_3day 47.04mm",
+      "id": 30
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_3day",
+      "value": 47.52,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 01:38 NPT - rainfall_3day 47.52mm",
+      "id": 31
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_3day",
+      "value": 48.0,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 03:38 NPT - rainfall_3day 48.0mm",
+      "id": 32
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_30day",
+      "value": 164.9,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 21:38 NPT - rainfall_30day 164.9mm",
+      "id": 33
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_30day",
+      "value": 166.6,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 23:38 NPT - rainfall_30day 166.6mm",
+      "id": 34
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_30day",
+      "value": 168.3,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 01:38 NPT - rainfall_30day 168.3mm",
+      "id": 35
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_30day",
+      "value": 170.0,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Jhim/Jhanjh Khola gauge - 03:38 NPT - rainfall_30day 170.0mm",
+      "id": 36
+    },
+    {
+      "station": "Ratu",
+      "parameter": "river_level",
+      "value": 3.51,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 21:38 NPT - river_level 3.51m",
+      "id": 37
+    },
+    {
+      "station": "Ratu",
+      "parameter": "river_level",
+      "value": 3.53,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 23:38 NPT - river_level 3.53m",
+      "id": 38
+    },
+    {
+      "station": "Ratu",
+      "parameter": "river_level",
+      "value": 3.54,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 01:38 NPT - river_level 3.54m",
+      "id": 39
+    },
+    {
+      "station": "Ratu",
+      "parameter": "river_level",
+      "value": 3.55,
+      "unit": "m",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 03:38 NPT - river_level 3.55m",
+      "id": 40
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_3day",
+      "value": 56.26,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 21:38 NPT - rainfall_3day 56.26mm",
+      "id": 41
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_3day",
+      "value": 56.84,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 23:38 NPT - rainfall_3day 56.84mm",
+      "id": 42
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_3day",
+      "value": 57.42,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 01:38 NPT - rainfall_3day 57.42mm",
+      "id": 43
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_3day",
+      "value": 58.0,
+      "unit": "mm",
+      "trend": "rising",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 03:38 NPT - rainfall_3day 58.0mm",
+      "id": 44
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_30day",
+      "value": 192.06,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T21:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 21:38 NPT - rainfall_30day 192.06mm",
+      "id": 45
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_30day",
+      "value": 194.04,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-03T23:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 23:38 NPT - rainfall_30day 194.04mm",
+      "id": 46
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_30day",
+      "value": 196.02,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T01:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 01:38 NPT - rainfall_30day 196.02mm",
+      "id": 47
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_30day",
+      "value": 198.0,
+      "unit": "mm",
+      "trend": "steady",
+      "timestamp": "2026-09-04T03:38:27+00:00",
+      "source": "seeded",
+      "raw_text": "DHM Ratu gauge - 03:38 NPT - rainfall_30day 198.0mm",
+      "id": 48
+    },
+    {
+      "station": "Kamala",
+      "parameter": "river_level",
+      "value": 3.86,
+      "unit": "m",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Kamala river_level 3.82m -> 3.86m (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 49
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_3day",
+      "value": 59.84,
+      "unit": "mm",
+      "trend": "falling",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Kamala rainfall_3day 62.0mm -> 59.84mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 50
+    },
+    {
+      "station": "Kamala",
+      "parameter": "rainfall_30day",
+      "value": 206.39,
+      "unit": "mm",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Kamala rainfall_30day 205.0mm -> 206.39mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 51
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "river_level",
+      "value": 3.29,
+      "unit": "m",
+      "trend": "falling",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Aurahi river_level 3.4m -> 3.29m (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 52
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_3day",
+      "value": 48.7,
+      "unit": "mm",
+      "trend": "falling",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Aurahi rainfall_3day 55.0mm -> 48.7mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 53
+    },
+    {
+      "station": "Aurahi",
+      "parameter": "rainfall_30day",
+      "value": 191.27,
+      "unit": "mm",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Aurahi rainfall_30day 190.0mm -> 191.27mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 54
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "river_level",
+      "value": 2.77,
+      "unit": "m",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Jhim/Jhanjh Khola river_level 2.7m -> 2.77m (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 55
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_3day",
+      "value": 40.59,
+      "unit": "mm",
+      "trend": "falling",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Jhim/Jhanjh Khola rainfall_3day 48.0mm -> 40.59mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 56
+    },
+    {
+      "station": "Jhim/Jhanjh Khola",
+      "parameter": "rainfall_30day",
+      "value": 172.32,
+      "unit": "mm",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Jhim/Jhanjh Khola rainfall_30day 170.0mm -> 172.32mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 57
+    },
+    {
+      "station": "Ratu",
+      "parameter": "river_level",
+      "value": 3.55,
+      "unit": "m",
+      "trend": "steady",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Ratu river_level 3.55m -> 3.55m (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 58
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_3day",
+      "value": 58.31,
+      "unit": "mm",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Ratu rainfall_3day 58.0mm -> 58.31mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 59
+    },
+    {
+      "station": "Ratu",
+      "parameter": "rainfall_30day",
+      "value": 201.83,
+      "unit": "mm",
+      "trend": "rising",
+      "source": "auto_drift",
+      "raw_text": "AUTO-DRIFT \u2014 Ratu rainfall_30day 198.0mm -> 201.83mm (no manual input since last cycle; stands in for a live DHM feed)",
+      "timestamp": "2026-09-04T03:38:43+00:00",
+      "id": 60
+    }
+  ],
+  "claims": [],
+  "audit_log": [],
+  "trace_log": [
+    {
+      "run_id": "startup",
+      "ts": "2026-09-04T09:23:28",
+      "step_type": "BOOT",
+      "message": "scheduler started \u00b7 every 7h \u00b7 mode=rule-based (no key)",
+      "line": "[09:23:28] BOOT      scheduler started \u00b7 every 7h \u00b7 mode=rule-based (no key)",
+      "id": 1
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "TRIGGER",
+      "message": "scheduled \u00b7 district=Dhanusa \u00b7 run=19d5e1",
+      "line": "[09:23:43] TRIGGER   scheduled \u00b7 district=Dhanusa \u00b7 run=19d5e1",
+      "id": 2
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "DRIFT",
+      "message": "auto-drifted 12 reading(s) with no manual input since last cycle",
+      "line": "[09:23:43] DRIFT     auto-drifted 12 reading(s) with no manual input since last cycle",
+      "id": 3
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "FALLBACK",
+      "message": "AI unavailable (no HACKATHON_KEY configured) \u2014 switching to rule-based threshold check",
+      "line": "[09:23:43] FALLBACK  AI unavailable (no HACKATHON_KEY configured) \u2014 switching to rule-based threshold check",
+      "id": 4
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "TOOL",
+      "message": "get_active_policies(\"Dhanusa\") -> 35 policies",
+      "line": "[09:23:43] TOOL      get_active_policies(\"Dhanusa\") -> 35 policies",
+      "id": 5
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=1): river_level 3.76 > 4.5 (not met); rainfall_3day 56.89 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=1): river_level 3.76 > 4.5 (not met); rainfall_3day 56.89 > 100 (not met) -> not fired",
+      "id": 6
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=2): river_level 3.97 > 4.4 (not met); rainfall_3day 60.56 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=2): river_level 3.97 > 4.4 (not met); rainfall_3day 60.56 > 100 (not met) -> not fired",
+      "id": 7
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=3): river_level 3.79 > 4.5 (not met); rainfall_3day 59.88 > 110 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=3): river_level 3.79 > 4.5 (not met); rainfall_3day 59.88 > 110 (not met) -> not fired",
+      "id": 8
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=4): river_level 3.76 > 4.6 (not met); rainfall_3day 62.85 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=4): river_level 3.76 > 4.6 (not met); rainfall_3day 62.85 > 90 (not met) -> not fired",
+      "id": 9
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=5): river_level 3.88 > 4.7 (not met); rainfall_3day 57.85 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=5): river_level 3.88 > 4.7 (not met); rainfall_3day 57.85 > 100 (not met) -> not fired",
+      "id": 10
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=6): river_level 3.97 > 4.3 (not met); rainfall_3day 62.28 > 110 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=6): river_level 3.97 > 4.3 (not met); rainfall_3day 62.28 > 110 (not met) -> not fired",
+      "id": 11
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=7): river_level 3.84 > 4.4 (not met); rainfall_3day 56.95 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=7): river_level 3.84 > 4.4 (not met); rainfall_3day 56.95 > 90 (not met) -> not fired",
+      "id": 12
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=8): river_level 3.81 > 4.5 (not met); rainfall_3day 56.52 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=8): river_level 3.81 > 4.5 (not met); rainfall_3day 56.52 > 100 (not met) -> not fired",
+      "id": 13
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=9): river_level 3.92 > 4.6 (not met); rainfall_3day 56.79 > 110 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=9): river_level 3.92 > 4.6 (not met); rainfall_3day 56.79 > 110 (not met) -> not fired",
+      "id": 14
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=10): river_level 3.95 > 4.7 (not met); rainfall_3day 58.67 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=10): river_level 3.95 > 4.7 (not met); rainfall_3day 58.67 > 90 (not met) -> not fired",
+      "id": 15
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=11): river_level 3.8 > 4.3 (not met); rainfall_3day 62.78 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=11): river_level 3.8 > 4.3 (not met); rainfall_3day 62.78 > 100 (not met) -> not fired",
+      "id": 16
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=12): river_level 3.82 > 4.4 (not met); rainfall_3day 57.7 > 110 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=12): river_level 3.82 > 4.4 (not met); rainfall_3day 57.7 > 110 (not met) -> not fired",
+      "id": 17
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=13): river_level 3.76 > 4.5 (not met); rainfall_3day 58.03 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=13): river_level 3.76 > 4.5 (not met); rainfall_3day 58.03 > 90 (not met) -> not fired",
+      "id": 18
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=14): rainfall_30day 201.93 < 165.0 (not met); river_level 3.85 < 2.67 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=14): rainfall_30day 201.93 < 165.0 (not met); river_level 3.85 < 2.67 (not met) -> not fired",
+      "id": 19
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=15): rainfall_30day 208.53 < 175.0 (not met); river_level 3.82 < 2.72 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=15): rainfall_30day 208.53 < 175.0 (not met); river_level 3.82 < 2.72 (not met) -> not fired",
+      "id": 20
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=16): rainfall_30day 209.29 < 155.0 (not met); river_level 3.84 < 2.77 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=16): rainfall_30day 209.29 < 155.0 (not met); river_level 3.84 < 2.77 (not met) -> not fired",
+      "id": 21
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=17): river_level 3.21 > 3.9 (not met); rainfall_3day 46.68 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=17): river_level 3.21 > 3.9 (not met); rainfall_3day 46.68 > 90 (not met) -> not fired",
+      "id": 22
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=18): river_level 3.37 > 4.0 (not met); rainfall_3day 46.39 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=18): river_level 3.37 > 4.0 (not met); rainfall_3day 46.39 > 100 (not met) -> not fired",
+      "id": 23
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=19): river_level 3.21 > 4.1 (not met); rainfall_3day 49.09 > 80 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=19): river_level 3.21 > 4.1 (not met); rainfall_3day 49.09 > 80 (not met) -> not fired",
+      "id": 24
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=20): river_level 3.35 > 4.2 (not met); rainfall_3day 51.51 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=20): river_level 3.35 > 4.2 (not met); rainfall_3day 51.51 > 90 (not met) -> not fired",
+      "id": 25
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=21): river_level 3.35 > 3.8 (not met); rainfall_3day 45.84 > 100 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=21): river_level 3.35 > 3.8 (not met); rainfall_3day 45.84 > 100 (not met) -> not fired",
+      "id": 26
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=22): rainfall_30day 187.88 < 140.0 (not met); river_level 3.24 < 2.38 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=22): rainfall_30day 187.88 < 140.0 (not met); river_level 3.24 < 2.38 (not met) -> not fired",
+      "id": 27
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=23): rainfall_30day 197.51 < 150.0 (not met); river_level 3.38 < 2.42 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=23): rainfall_30day 197.51 < 150.0 (not met); river_level 3.38 < 2.42 (not met) -> not fired",
+      "id": 28
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=24): river_level 2.75 > 3.3 (not met); rainfall_3day 41.81 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=24): river_level 2.75 > 3.3 (not met); rainfall_3day 41.81 > 90 (not met) -> not fired",
+      "id": 29
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=25): river_level 2.8 > 3.4 (not met); rainfall_3day 38.77 > 70 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=25): river_level 2.8 > 3.4 (not met); rainfall_3day 38.77 > 70 (not met) -> not fired",
+      "id": 30
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=26): river_level 2.7 > 3.0 (not met); rainfall_3day 40.03 > 80 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=26): river_level 2.7 > 3.0 (not met); rainfall_3day 40.03 > 80 (not met) -> not fired",
+      "id": 31
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=27): river_level 2.78 > 3.1 (not met); rainfall_3day 42.59 > 90 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=27): river_level 2.78 > 3.1 (not met); rainfall_3day 42.59 > 90 (not met) -> not fired",
+      "id": 32
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=28): river_level 2.74 > 3.2 (not met); rainfall_3day 42.87 > 70 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=28): river_level 2.74 > 3.2 (not met); rainfall_3day 42.87 > 70 (not met) -> not fired",
+      "id": 33
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=29): rainfall_30day 169.43 < 135.0 (not met); river_level 2.8 < 1.84 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=29): rainfall_30day 169.43 < 135.0 (not met); river_level 2.8 < 1.84 (not met) -> not fired",
+      "id": 34
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=30): river_level 3.63 > 4.4 (not met); rainfall_3day 60.15 > 105 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=30): river_level 3.63 > 4.4 (not met); rainfall_3day 60.15 > 105 (not met) -> not fired",
+      "id": 35
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=31): river_level 3.45 > 4.0 (not met); rainfall_3day 59.31 > 85 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=31): river_level 3.45 > 4.0 (not met); rainfall_3day 59.31 > 85 (not met) -> not fired",
+      "id": 36
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=32): river_level 3.51 > 4.1 (not met); rainfall_3day 59.4 > 95 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=32): river_level 3.51 > 4.1 (not met); rainfall_3day 59.4 > 95 (not met) -> not fired",
+      "id": 37
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=33): river_level 3.48 > 4.2 (not met); rainfall_3day 55.36 > 105 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=33): river_level 3.48 > 4.2 (not met); rainfall_3day 55.36 > 105 (not met) -> not fired",
+      "id": 38
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=34): river_level 3.58 > 4.3 (not met); rainfall_3day 61.3 > 85 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=34): river_level 3.58 > 4.3 (not met); rainfall_3day 61.3 > 85 (not met) -> not fired",
+      "id": 39
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "check_trigger(policy=35): rainfall_30day 204.2 < 158.0 (not met); river_level 3.48 < 2.54 (not met) -> not fired",
+      "line": "[09:23:43] STEP      check_trigger(policy=35): rainfall_30day 204.2 < 158.0 (not met); river_level 3.48 < 2.54 (not met) -> not fired",
+      "id": 40
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "STEP",
+      "message": "0 new claim(s) drafted across 35 district-wide policies",
+      "line": "[09:23:43] STEP      0 new claim(s) drafted across 35 district-wide policies",
+      "id": 41
+    },
+    {
+      "run_id": "19d5e1",
+      "ts": "2026-09-04T09:23:43",
+      "step_type": "DONE",
+      "message": "0 new claim(s) drafted \u00b7 0 gate(s) awaiting approval \u00b7 rule-based fallback \u2014 no model cost \u00b7 0.5s",
+      "line": "[09:23:43] DONE      0 new claim(s) drafted \u00b7 0 gate(s) awaiting approval \u00b7 rule-based fallback \u2014 no model cost \u00b7 0.5s",
+      "id": 42
+    }
+  ],
+  "_counters": {
+    "policies": 35,
+    "readings": 60,
+    "claims": 0,
+    "audit_log": 0,
+    "trace_log": 42
+  }
+}
